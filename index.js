@@ -95,3 +95,27 @@ function betweenTwentyAndForty ( num ) {
  
  //BONUS
  //1
+ 
+ function printTime () {
+     var d = new Date();
+     var n = d.toLocaleTimeString();
+     
+     /*
+     let a = getHours();
+     let b = getMinutes();
+     let c = getSeconds();
+     */
+     console.log(n)
+     
+ }
+ 
+ //printTime()
+ 
+ function leapYear(year){
+     if(year % 4 === 0){
+         console.log("It is a leap year")
+     } else
+     console.log("It's not a leap year")
+ }
+ 
+ leapYear(2015);
